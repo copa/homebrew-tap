@@ -7,7 +7,7 @@ cask "plausio" do
   desc "Analyzes comment sections for bot networks and disinformation"
   homepage "https://plausio.app/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Plausio.app"
 
